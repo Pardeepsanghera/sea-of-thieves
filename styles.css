@@ -1,0 +1,146 @@
+/* Global styles */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #010d0b
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #4d4d4d
+}
+a:visited {
+    color:#a5cbb0
+}
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color:#08151b;
+    /* position: Fixed; */
+}
+.navbar-logo {
+    height: 100px;
+}
+.navbar-nav {
+  float: right;
+}
+.nav-item {
+    float:left;
+    padding: 10px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    background: black;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+.nav-item:hover {
+    border: dotted white;
+}
+.nav-item a:hover {
+    color: #4d4d4d
+}
+
+.hero-img {
+    width: 100%;
+    background-image:url(./img/https___blogs-images.forbes.com_erikkain_files_2018_03_sea-of-thieves-4.jpg);
+    height: 900px;
+    background-size:contain;
+    background-repeat: no-repeat;
+  
+}
+.hero-back {
+    background-color: gray;
+}
+.hero-header {
+    position: relative;
+    left: 900px;
+    top:400px;
+    display: inline;
+}
+.home-content {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+.content-img {
+    height: 200px;
+    width: 400px;
+    background-image: url(./img/apps.10817.14171424291358184.5cc1e19a-2da9-40d6-8cdb-2e9621da825e.jpeg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative; 
+    float: left;
+    top: 100px;
+    left: 76px;
+}
+.content-para {
+    height: 250px;
+    width: 200px;
+    background-color:white;
+    position: relative;
+    float: left;
+    top: -25px;
+    left: 300px;
+    display: inline;
+    border-radius: 85px;
+    padding: 80px;
+    
+}
+.contact-colum {
+    width: 50%;
+    float: left;
+}
+/* about styles */
+.about-container {
+    height: 700px;
+    width: 100%;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+.about-colum {
+    width: 40%;
+    border: 2px solid #000;
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.about-img {
+    height: 300px;
+    width: 321px;
+    margin: auto;
+}
+.about-button {
+    box-shadow: 2px 2px black;
+}
+.about-audio {
+    margin-bottom: 250px;
+}
+
+.footer{
+    background-color:#08151b;
+    height: 100px;
+    width: 100%;
+    clear: left;
+    margin-top: 50px;
+    text-align: right;
+    
+}
+.footer-item {
+    float: left;
+    margin-top: 0px;
+    margin-left: 100px;;
+}
+.icon {
+    font-size: 30px;
+}
